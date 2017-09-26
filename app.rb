@@ -39,5 +39,5 @@ get '/:operation/:number1/:number2' do
    when "divide"
        "#{num1 / num2}"
      end
- 
+end
 end
